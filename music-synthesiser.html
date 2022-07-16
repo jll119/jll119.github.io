@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+<link href="./main.d8e0d294.css" rel="stylesheet">
+
+<style>
+    /* Add a black background color to the top navigation */
+    .topnav {
+      background-color: rgb(15, 14, 14);
+      overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: Oswald;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #63a3bc;
+      color: white;
+    }
+    </style>
+    
+</head>
+
+<body class="">
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="index.html">Work Experiences</a>
+        <a href="index.html">Skills</a>
+        <a href="index.html">Contact</a>
+      </div>
+
+    <main class="content-wrapper">
+        <header class="white-text-container section-container">
+          <div class="text-center">
+            <h1>Projects</h1>
+          </div>
+        </header>
+
+        <div class="card">
+            <div class="card-block">
+              <h2>Music Synthesisier - March 2022</h2>
+              <h3><a href="https://github.com/yr419/Music_synthesizer_ISIY" style="color: green">Github Link</a></h3>
+              <div class="row">
+                <div class="col-md-12">
+                  <p><img src="./assets/images/music-synthesiser.jpg" class="img-responsive" alt=""></p>
+                </div>
+                <div class="col-md-12">
+                    
+            <div class="card-block">
+                <p>The music synthesisier is developed as part of the Year 3 Embedded Systems module at Imperial College London.</p>
+                <p>To make the music synthesiser work, the embedded software was written. Several real time tasks will need to be 
+                    executed concurrently, such as detecting key presses and generating the output waveform. The keyboard is 
+                    controlled using a ST NUCLEO-L432KC microcontroller module that contains a STM32L432KCU6U processor, which has 
+                    an Arm Cortex-M4 core. Timing, dependency and shared data structures analysis are carried out to verify that 
+                    our real-time system behaves properly even in the worst case conditions.
+                </p>
+                <p>
+                    The core features of this synthesiser includes scanning the key matrix to find out which keys are pressed,
+                    using an interrupt to generate a sawtooth wave and using threads to allow the key scan and display tasks 
+                    to be decoupled and executed concurrently. 
+                </p>
+                <p>
+                    Several advanced features were implemented, i.e. handshake (autodetection), polyphony, filters and real time tuner effect.
+                </p>
+            </div>
+
+                <!-- <div class="card-block"> -->
+                    <div class="row"><div class="col-md-6">
+                        <p><img src="./assets/images/keyboard.png" class="img-responsive" alt=""></p>
+                    </div>
+                    <div class="row"><div class="col-md-6">
+                        <p><img src="./assets/images/music-workflow.png" class="img-responsive" alt=""></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<script type="text/javascript" src="./main.bc58148c.js"></script>
+</body>
+</html>
